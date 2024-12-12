@@ -9,13 +9,13 @@
 天翼云盘的cookie有IP验证,切换IP后cookie会无效，且ipv4和ipv6的cookie无法混用。建议在电信的WIFI环境下使用(ipv4)。
 如雷鲸无返回数据，请在设置中打开一次该站点，该站点有时需效验。
 
-### 12月12日：更新1.0.9版，支持听书模式（工作繁忙，安卓端止步1.0.8版）
+### 12月12日15:30分：重新上传1.0.9版，修复海洋听书异常（1.0.9版支持后台熄屏听书）
+
+因安卓端优秀APP很多、再加上工作繁忙，暂不对安卓端进行新版发布（旧版可正常使用）
 
 配置如下：
 
 "selectedPlayer": "2" 选择音频播放器
-
-"keepPlayFileKeywords": ".mp3?ts=,.m4a" 嗅探链接中包含.mp3?ts=或者.m4a的音频文件
 
 ```json
 {
@@ -30,10 +30,30 @@
 	"ext": "https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/js/6yueting.js",
 	"flagable": 0,
 	"filterPlayFileKeywords": "",
-	"keepPlayFileKeywords": ".mp3?ts=,.m4a",
+	"keepPlayFileKeywords": "",
 	"selectedPlayer": "2"
 }
 ```
+
+
+```json
+{
+	"key": "haiyang",
+	"name": "🌊海洋┃听书",
+	"type": 5,
+	"searchable": 1,
+	"filterClass": "",
+	"firstClass": "",
+	"filterPlay": "",
+	"firstPlay": "",
+	"ext": "https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/js/haiyang.js",
+	"flagable": 0,
+	"filterPlayFileKeywords": "",
+	"keepPlayFileKeywords": "",
+	"selectedPlayer": "2"
+}
+```
+
 
 ------------------------------------------------------
 该源大部分频道需要ipv6访问
@@ -52,20 +72,11 @@ User-Agent: okHttp
 User-Agent: okHttp
 
 ------------------------------------------------
-
-# 请务必转存到自己的仓库使用
+### 视频源配置链接
 ios端配置（支持嗅探）：https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/配置.json
 
 安卓端配置（不支持嗅探）：https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/安卓配置.json
-## 关于tBox后续维护的说明
 
-tBox是一款免费APP，主要功能是嗅探网页视频播放，并提供友好的规则编写体验。
-
-**关于“删库”、“跑路”等言论，我想澄清：**
-
-* 在发布第一个版本时，我已在GitHub明确提醒大家务必自行转存配置和软件，我不会对配置进行特别维护。而且从头到尾无任何广告、无任何收费，何来跑路一说？
-* 尽管如此，考虑到部分用户的喜爱，我还是重新维护了配置并上传，以方便大家转存。
-* 再次提醒，配置请自行转存，软件本身无任何后门、无任何远程开关。（不定期删除规则,喜欢的朋友请在我主页 https://github.com/tt9912 直接Follow，以免迷路。）
 
 **关于tBox的更新：**
 
