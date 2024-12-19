@@ -20,7 +20,18 @@ tBox虽然在UI设计上借鉴了猫影视的风格，但其源码是完全不�
 如雷鲸无返回数据，请在设置中打开一次该站点，该站点有时需效验。
 
 ### V1.0.11版更新：优化搜索、增加豆瓣、酷我音乐（请在设置中登录哔哩哔哩，VIP歌曲通过该站解析）
-1.0.11版以上请搭配new.json配置使用：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/new.json
+
+1.0.11版以上请搭配new.json配置使用：
+
+IOS影视点播源： https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/new.json
+
+IOS听书听歌源：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/music.json
+
+
+应大家要求，补充安卓端。（音频播放器不适配安卓端，音乐+听书默认使用：推荐播放器）
+
+安卓端视频源： https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/安卓new.json
+
 
 旧版配置不再维护，请更新至新版。
 
@@ -95,7 +106,9 @@ User-Agent: okHttp
 ### 视频源配置链接
 旧版配置（限1.0.9~1.0.10版，后续不再维护，建议更新）：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/配置.json
 
-新版配置（限1.0.11版以上）：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/new.json
+新版IOS端配置（限1.0.11版以上）：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/new.json
+
+新版安卓端配置（限1.0.11版以上）：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/安卓new.json
 
 **关于tBox的更新：**
 
