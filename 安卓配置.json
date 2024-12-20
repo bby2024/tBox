@@ -149,6 +149,21 @@
             "keepPlayFileKeywords": ""
         },
         {
+            "key": "bilimv",
+            "name": "🎙MV┃哔哩",
+            "type": 5,
+            "searchable": 1,
+            "filterClass": "",
+            "firstClass": "",
+            "filterPlay": "",
+            "firstPlay": "",
+            "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/bby2024/tBox/refs/heads/main/newjs/bili.js",
+            "flagable": 0,
+            "filterPlayFileKeywords": "",
+            "keepPlayFileKeywords": "",
+            "selectedPlayer": "0"
+        },
+        {
             "key": "wogg",
             "name": "🧸玩偶┃网盘",
             "type": 5,
