@@ -447,9 +447,9 @@
     {
       "key": "lzzyapi",
       "name": "量子资源",
-      "type": 0,
+      "type": 1,
       "searchable": 1,
-      "filterClass": "国产片,电影片,连续剧,综艺片,",
+      "filterClass": "电影,电视剧,连续剧,综艺片",
       "firstClass": "国产剧,香港剧,韩国剧,国产动漫",
       "filterPlay": "",
       "firstPlay": "",
