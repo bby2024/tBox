@@ -14,7 +14,35 @@
       "filterPlayFileKeywords": "",
       "keepPlayFileKeywords": "",
       "recommend": "1"
-    },
+    },{
+  "key": "caoliuzy",
+  "name": "草榴┃影视",
+  "type": 1,
+  "searchable": 1,
+  "filterClass": "",
+  "firstClass": "亚洲无码,中文字幕,日本精品",
+  "filterPlay": "",
+  "firstPlay": "",
+  "ext": "https://www.caoliuzyw.com/api.php/provide/vod",
+  "flagable": 0,
+  "filterPlayFileKeywords": "",
+  "keepPlayFileKeywords": "",
+  "selectedPlayer": "0"
+},{
+  "key": "putaozy",
+  "name": "葡萄┃影视",
+  "type": 1,
+  "searchable": 1,
+  "filterClass": "",
+  "firstClass": "日本无码,中文字幕,伦理三级",
+  "filterPlay": "",
+  "firstPlay": "",
+  "ext": "https://beiyong.slapibf.com/api.php/provide/vod",
+  "flagable": 0,
+  "filterPlayFileKeywords": "",
+  "keepPlayFileKeywords": "",
+  "selectedPlayer": "0"
+},
       {
       "key": "综合采集",
       "name": "综合采集",
