@@ -15,7 +15,7 @@
       "keepPlayFileKeywords": "",
       "recommend": "1"
     },
-      {
+    {
       "key": "综合采集",
       "name": "综合采集",
       "type": 5,
@@ -31,6 +31,21 @@
       "selectedPlayer": "0"
     },
     {
+      "key": "putaozy",
+      "name": "葡萄┃影视",
+      "type": 1,
+      "searchable": 1,
+      "filterClass": "",
+      "firstClass": "亚洲无码,中文字幕,日本精品",
+      "filterPlay": "",
+      "firstPlay": "",
+      "ext": "https://caiji.putaozyw.net/inc/apijson_vod.php",
+      "flagable": 0,
+      "filterPlayFileKeywords": "",
+      "keepPlayFileKeywords": "",
+      "selectedPlayer": "0"
+    },
+    {
       "key": "senlinzy",
       "name": "森林┃影视",
       "type": 1,
@@ -40,6 +55,36 @@
       "filterPlay": "",
       "firstPlay": "",
       "ext": "https://slapibf.com/api.php/provide/vod/",
+      "flagable": 0,
+      "filterPlayFileKeywords": "",
+      "keepPlayFileKeywords": "",
+      "selectedPlayer": "0"
+    },
+    {
+      "key": "semaozy",
+      "name": "色猫┃影视",
+      "type": 1,
+      "searchable": 1,
+      "filterClass": "",
+      "firstClass": "中文字幕,日本精品",
+      "filterPlay": "",
+      "firstPlay": "",
+      "ext": "https://caiji.semaozy.net/inc/apijson_vod.php",
+      "flagable": 0,
+      "filterPlayFileKeywords": "",
+      "keepPlayFileKeywords": "",
+      "selectedPlayer": "0"
+    },
+    {
+      "key": "yaowuzy",
+      "name": "妖舞┃影视",
+      "type": 1,
+      "searchable": 1,
+      "filterClass": "",
+      "firstClass": "中文字幕,日本精品",
+      "filterPlay": "",
+      "firstPlay": "",
+      "ext": "https://155api.com/api.php/provide/vod/",
       "flagable": 0,
       "filterPlayFileKeywords": "",
       "keepPlayFileKeywords": "",
